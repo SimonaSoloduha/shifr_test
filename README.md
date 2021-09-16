@@ -7,25 +7,25 @@ WEB-сервис на Python с возможностью загрузить ка
 
 ## Запуск проекта
 
-Откройте консоль
+1. Откройте консоль
 
-Перейдите в папку, в которой будет храниться проект
+2. Перейдите в папку, в которой будет храниться проект
 
 cd <путь до папки>
 
-Клонируйте проект
+3. Клонируйте проект
 git clone https://github.com/SimonaSoloduha/shifr_test.git
 
-перейдите в папку проекта
+4. Перейдите в папку проекта
 cd shifr_test
 
-Создайте виртуальное окружение venv
+5. Создайте виртуальное окружение venv
 python3 -m venv venv
 
-Активируйте виртуальное окружение venv
+6. Активируйте виртуальное окружение venv
 source venv/bin/activate
 
-Установите необходимые пакеты:
+7. Установите необходимые пакеты:
 pip3 install -r requirements.txt
 
 (Все используемые библиотеки представлены в файле requirements.txt)
@@ -35,9 +35,9 @@ pip3 install -r requirements.txt
 (Если получите сообщение: WARNING: You are using pip version 20.2.3; however, version 21.2.1 is available. You should consider upgrading via the '..... flask/venv/bin/python3 -m pip install --upgrade pip' command.)
 
 
-Запустите проект
+8. Запустите проект
 (Убедитесь, что вы находитесь в папке shifr_test, внутри которой есть файл manage.py)
 python manage.py runserver
 
-Перейдете по ссыке
+9. Перейдете по ссылке
 http://127.0.0.1:8000/
